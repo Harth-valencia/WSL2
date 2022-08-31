@@ -3,7 +3,7 @@
 # WSL2
 ## ARQUITECTURA
 
-Ejecución de aplicaciones de GUI de Linux en el Subsistema de Windows para Linux
+#### Ejecución de aplicaciones de GUI de Linux en el Subsistema de Windows para Linux
 Artículo.
 
 
