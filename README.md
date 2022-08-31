@@ -41,7 +41,8 @@ PowerShell
 
 wsl --install
 
-Una vez que la máquina haya terminado de reiniciarse, la instalación continuará y se le pedirá que escriba un nombre de usuario y una contraseña. Esta será la credencial de Linux para la distribución de Ubuntu.
+Una vez que la máquina haya terminado de reiniciarse, la instalación continuará y se le pedirá que escriba un nombre de usuario y una contraseña. Esta será la credencial de Linux pa![Imagen1](https://user-images.githubusercontent.com/101934945/187734747-0ca45ad4-7a54-4a44-a235-cca6b99d2b1e.png)
+ra la distribución de Ubuntu.
 
 Ya está listo para empezar a usar aplicaciones de GUI de Linux en WSL.
 
