@@ -41,8 +41,7 @@ PowerShell
 
 wsl --install
 
-Una vez que la máquina haya terminado de reiniciarse, la instalación continuará y se le pedirá que escriba un nombre de usuario y una contraseña. Esta será la credencial de Linux pa![Imagen1](https://user-images.githubusercontent.com/101934945/187734747-0ca45ad4-7a54-4a44-a235-cca6b99d2b1e.png)
-ra la distribución de Ubuntu.
+Una vez que la máquina haya terminado de reiniciarse, la instalación continuará y se le pedirá que escriba un nombre de usuario y una contraseña. Esta será la credencial de Linux para la distribución de Ubuntu.
 
 Ya está listo para empezar a usar aplicaciones de GUI de Linux en WSL.
 
@@ -124,3 +123,5 @@ Por defecto, la distribución de Linux instalada será Ubuntu. Esto se puede cam
 Para cambiar la distribución instalada, ingrese: wsl --install -d <Distribution Name>. Reemplace <Distribution Name>con el nombre de la distribución que le gustaría instalar.
 Para ver una lista de las distribuciones de Linux disponibles para descargar a través de la tienda en línea, ingrese: wsl --list --onlineo wsl -l -o.
 Para instalar distribuciones de Linux adicionales después de la instalación inicial, también puede usar el comando: wsl --install -d <Distribution Name>.
+ 
+ ![Imagen1](https://user-images.githubusercontent.com/101934945/187734747-0ca45ad4-7a54-4a44-a235-cca6b99d2b1e.png)
