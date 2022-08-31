@@ -1,4 +1,4 @@
-![docker](https://user-images.githubusercontent.com/101934945/187725020-1176f544-a96e-47c9-be70-b20d241ec16b.png)
+
 
 # WSL2
 ARQUITECTURA
@@ -45,5 +45,9 @@ wsl --install
 Una vez que la máquina haya terminado de reiniciarse, la instalación continuará y se le pedirá que escriba un nombre de usuario y una contraseña. Esta será la credencial de Linux para la distribución de Ubuntu.
 
 Ya está listo para empezar a usar aplicaciones de GUI de Linux en WSL.
+
+DOCKER
+
+![docker](https://user-images.githubusercontent.com/101934945/187725020-1176f544-a96e-47c9-be70-b20d241ec16b.png)
 
 
