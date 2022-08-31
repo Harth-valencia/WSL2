@@ -52,7 +52,6 @@ DOCKER
 
 
 Arquitectura Docker
-POR VÍCTOR CUERVO EN DOCKER  02 DICIEMBRE 2019  0 COMMENTS  TWEET  LIKE  +1
 La arquitectura Docker es una arquitectura cliente-servidor, dónde el cliente habla con el servidor (que es un proceso daemon) mediante un API para poder gestionar el ciclo de vida de los contenedores y así poder construir, ejecutar y distribuir los contenedores.
 
 El hecho de que el cliente se comunique con el servidor mediante el API hace que el cliente y servidor puedan estar en la misma máquina comunicándose mediante sockets de UNIX o bien en máquinas diferentes comunicándose mediante un end-point en la red.
