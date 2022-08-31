@@ -2,10 +2,7 @@
 ARQUITECTURA
 
 Ejecución de aplicaciones de GUI de Linux en el Subsistema de Windows para Linux
-Artículo
-13/08/2022
-Tiempo de lectura: 4 minutos
-9 colaboradores
+Artículo.
 
 
 En este artículo
@@ -40,10 +37,11 @@ Ahora puede instalar todo lo que necesita para ejecutar el Subsistema de Windows
 
 PowerShell
 
-Copiar
+
 wsl --install
+
 Una vez que la máquina haya terminado de reiniciarse, la instalación continuará y se le pedirá que escriba un nombre de usuario y una contraseña. Esta será la credencial de Linux para la distribución de Ubuntu.
 
 Ya está listo para empezar a usar aplicaciones de GUI de Linux en WSL.
 
-Para obtener más información, consulta instalar WSL.
+
