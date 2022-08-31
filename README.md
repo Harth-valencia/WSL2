@@ -91,3 +91,35 @@ WSL ya se ejecuta en Windows, por lo que no es necesario iniciar una máquina vi
 A la hora de compartir datos desde Windows con unidades con formato ext4, aunque Windows no ofrece soporte para este sistema de archivos, si lo vamos a encontrar en WSL, por lo que si, en algún momento nos vemos en la necesidad de acceder a unidades de nuestro equipo gestionados por el sistema de archivos de Linux, podemos recurrir a WSL para acceder sin necesidad de instalar ninguna aplicación adicional.
 
 Si optamos por el arranque dual, debemos reservar espacio en el disco duro para instalar el sistema y asegurarse de tener medios de respaldo por si algo falla. Si queremos pasar de Windows a Linux o viceversa, la única solución para por reiniciar el equipo y arrancar con el sistema operativo que necesitamos en ese momento. Sin embargo, no es necesario si queremos acceder a los archivos que tengamos almacenados en ambas unidades, ya que Linux es compatible con el sistema de archivos NTFS y Windows es capaz de acceder a unidades ext4 a través de WSL, reduciendo así la obligación de reiniciar el equipo.
+
+## Instalar Linux en Windows con WSL.
+
+###requisitos previos
+Debe ejecutar Windows 10 versión 2004 y superior (compilación 19041 y superior) o Windows 11.
+
+ ####Nota
+
+Para verificar su versión de Windows y el número de compilación, seleccione la tecla del logotipo de Windows + R , escriba winver , seleccione Aceptar . Puede actualizar a la última versión de Windows seleccionando Inicio > Configuración > Actualización de Windows > Buscar actualizaciones .
+
+Si está ejecutando una compilación anterior, o simplemente prefiere no usar el comando de instalación y desea obtener instrucciones paso a paso, consulte los pasos de instalación manual de WSL para versiones anteriores .
+
+## Instalar el comando WSL
+Ahora puede instalar todo lo que necesita para ejecutar el Subsistema de Windows para Linux (WSL) ingresando este comando en un administrador PowerShell o Símbolo del sistema de Windows y luego reiniciando su máquina.
+
+Potencia Shell
+wsl --install
+
+Este comando habilitará las funciones necesarias para ejecutar WSL e instalar la distribución Ubuntu de Linux. ( Esta distribución por defecto se puede cambiar ).
+
+La primera vez que inicie una distribución de Linux recién instalada, se abrirá una ventana de consola y se le pedirá que espere a que los archivos se descompriman y se almacenen en su máquina. Todos los lanzamientos futuros deberían tomar menos de un segundo.
+
+ Nota
+
+El comando anterior solo funciona si WSL no está instalado en absoluto, si ejecuta wsl --instally ve el texto de ayuda de WSL, intente ejecutar wsl --list --onlinepara ver una lista de distribuciones disponibles y ejecute wsl --install -d <DistroName>para instalar una distribución. Para desinstalar WSL, consulte Desinstalar la versión heredada de WSL o cancelar el registro o desinstalar una distribución de Linux .
+
+Cambiar la distribución de Linux predeterminada instalada
+Por defecto, la distribución de Linux instalada será Ubuntu. Esto se puede cambiar usando la -dbandera.
+
+Para cambiar la distribución instalada, ingrese: wsl --install -d <Distribution Name>. Reemplace <Distribution Name>con el nombre de la distribución que le gustaría instalar.
+Para ver una lista de las distribuciones de Linux disponibles para descargar a través de la tienda en línea, ingrese: wsl --list --onlineo wsl -l -o.
+Para instalar distribuciones de Linux adicionales después de la instalación inicial, también puede usar el comando: wsl --install -d <Distribution Name>.
