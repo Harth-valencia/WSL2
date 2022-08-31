@@ -76,3 +76,18 @@ Los registros Docker (Docker Registry) son los que almacenan imágenes Docker. E
 
 Por defecto, cuando ejecutamos un comando para crear un contenedor, se buscan las imágenes en Docker Hub. Si bien se pueden crear registros privados de imágenes mediante Docker Datacenter (DDC) y Docker Trusted Registry (DTR)
 
+
+## Ventajas de WSL
+El Subsistema de Windows para Linux puede ser útil tanto para usuarios aficionados que empiezan a dar los primeros pasos en este sistema operativo como para usuarios avanzados y administradores de sistemas.
+
+La finalidad principal de WSL es permitir a los administradores de sistemas, y a los programadores, usar todas las herramientas y todos los servicios de Linux directamente desde Windows sin tener que virtualizar nada más ni montar infraestructuras complicadas. Al final, vamos a poder hacer todo lo que podríamos hacer si instalásemos Linux en una máquina virtual o en otro PC, y lo usáramos desde terminal o TTY. Todos los comandos de Linux deberían funcionar sin problema en Windows, como apt o dpkg. Incluso podremos compilar código directamente desde aquí con las ventajas que aporta Linux en este sentido.
+
+Pero esta implementación también es útil para los usuarios que están dando sus primeros pasos dentro de los sistemas Linux. Gracias a ella, cualquier usuario podrá tener a su alcance todas las herramientas de Linux sin necesidad de tener que configurar ni virtualizar nada. Y, además, tendrá la seguridad de que, si algo sale mal, solo tendrá que reinstalar la distro en WSL, ya que Windows no se verá comprometido.
+
+También hay que tener en cuenta que un problema persistente cuando ejecutamos Linux en su versión de escritorio es el soporte de hardware, especialmente en portátiles. Este problema es algo que no tendremos con WSL, ya nos aseguramos una compatibilidad total. Otra ventaja interesa es que, WSL nos va a permitir una verdadera interoperabilidad entre Windows y Linux, ya que vamos a poder explotar el sistema de archivos de Linux desde Windows y viceversa, así como iniciar programas desde las líneas de comando de uno y otro. Además, aunque aún no está disponible, en un futuro se podrán incluso ejecutar programas con interfaz gráfica.
+
+WSL ya se ejecuta en Windows, por lo que no es necesario iniciar una máquina virtual cada vez que necesitamos de Linux, siempre y cuando no dependamos de una interfaz gráfica. Aunque una máquina virtual es más rápida y fácil de configurar, sigue siendo una máquina independiente al sistema operativo, aunque las limitaciones se reducen si activamos las opciones para compartir unidades y archivos entre el sistema operativo anfitrión y el invitado.
+
+A la hora de compartir datos desde Windows con unidades con formato ext4, aunque Windows no ofrece soporte para este sistema de archivos, si lo vamos a encontrar en WSL, por lo que si, en algún momento nos vemos en la necesidad de acceder a unidades de nuestro equipo gestionados por el sistema de archivos de Linux, podemos recurrir a WSL para acceder sin necesidad de instalar ninguna aplicación adicional.
+
+Si optamos por el arranque dual, debemos reservar espacio en el disco duro para instalar el sistema y asegurarse de tener medios de respaldo por si algo falla. Si queremos pasar de Windows a Linux o viceversa, la única solución para por reiniciar el equipo y arrancar con el sistema operativo que necesitamos en ese momento. Sin embargo, no es necesario si queremos acceder a los archivos que tengamos almacenados en ambas unidades, ya que Linux es compatible con el sistema de archivos NTFS y Windows es capaz de acceder a unidades ext4 a través de WSL, reduciendo así la obligación de reiniciar el equipo.
