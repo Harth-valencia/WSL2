@@ -3,8 +3,7 @@
 # WSL2
 ## ARQUITECTURA
 
-#### Ejecución de aplicaciones de GUI de Linux en el Subsistema de Windows para Linux
-Artículo.
+#### Ejecución de aplicaciones de GUI de Linux en el Subsistema de Windows para Linux.
 
 
 En este artículo
@@ -27,7 +26,7 @@ Instalación de compatibilidad con aplicaciones de GUI de Linux
 Prerrequisitos
 Tendrá que estar en Windows 11 compilación 22000 o posterior para acceder a esta característica.
 
-Controlador instalado para vGPU
+#### Controlador instalado para vGPU
 
 Para ejecutar aplicaciones de GUI de Linux, primero debe instalar el controlador que coincida con el sistema siguiente. Esto le permitirá usar una GPU virtual (vGPU) para que pueda beneficiarse de la representación de OpenGL acelerada por hardware.
 
@@ -46,12 +45,12 @@ Una vez que la máquina haya terminado de reiniciarse, la instalación continuar
 
 Ya está listo para empezar a usar aplicaciones de GUI de Linux en WSL.
 
-DOCKER
+# DOCKER
 
 ![docker](https://user-images.githubusercontent.com/101934945/187725020-1176f544-a96e-47c9-be70-b20d241ec16b.png)
 
 
-Arquitectura Docker
+## Arquitectura Docker
 La arquitectura Docker es una arquitectura cliente-servidor, dónde el cliente habla con el servidor (que es un proceso daemon) mediante un API para poder gestionar el ciclo de vida de los contenedores y así poder construir, ejecutar y distribuir los contenedores.
 
 El hecho de que el cliente se comunique con el servidor mediante el API hace que el cliente y servidor puedan estar en la misma máquina comunicándose mediante sockets de UNIX o bien en máquinas diferentes comunicándose mediante un end-point en la red.
@@ -62,14 +61,15 @@ Docker está escrito en GO, aunque también se aprovecha de muchas de las capaci
 
 Dentro de los elementos de la Arquitectura Docker encontramos dos, por un lado el elemento principal de la arquitectura Docker que es el Docker Engine y por otro el Registro Docker.
 
-Docker Engine
+##Docker Engine
 El Docker Engine es la aplicación cliente-servidor que implementa Docker. Esta aplicación tiene tres componentes:
 
 Servidor, es el proceso principal de Docker y que funciona como proceso demonio del sistema. Es el encargado de gestionar los objetos que hay en Docker como imágenes, contenedores, redes y volúmenes. Se representa mediante el comando dockerd.
 API Rest, es un API Rest que nos permite acceder a las capacidades del servidor y ejecutar comandos sobre él. Podemos utilizar un simple curl para acceder a las capacidades del API de Docker
 Cliente, es la línea de comandos representada por el comando docker. El cliente habla vía el API Rest para poder ejecutar los comandos. Es lo que utilizaremos para poder ir gestionando el ciclo de vida de nuestras imágenes y contenedores.
 Docker Engine
-Registros Docker
+
+## Registros Docker
 Además del Docker Engine la Arquitectura Docker contiene otro elemento importante que son los registros Docker.
 
 Los registros Docker (Docker Registry) son los que almacenan imágenes Docker. El Docker Hub es un registro público que almacena múltiples imágenes, algunas de ellas certificadas por Docker.
