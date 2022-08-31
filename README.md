@@ -1,4 +1,5 @@
-[docker.pptx](https://github.com/Harth-valencia/WSL2/files/9463051/docker.pptx)
+![docker](https://user-images.githubusercontent.com/101934945/187725020-1176f544-a96e-47c9-be70-b20d241ec16b.png)
+
 # WSL2
 ARQUITECTURA
 
