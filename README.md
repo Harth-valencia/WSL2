@@ -61,7 +61,7 @@ Docker está escrito en GO, aunque también se aprovecha de muchas de las capaci
 
 Dentro de los elementos de la Arquitectura Docker encontramos dos, por un lado el elemento principal de la arquitectura Docker que es el Docker Engine y por otro el Registro Docker.
 
-##Docker Engine
+## Docker Engine
 El Docker Engine es la aplicación cliente-servidor que implementa Docker. Esta aplicación tiene tres componentes:
 
 Servidor, es el proceso principal de Docker y que funciona como proceso demonio del sistema. Es el encargado de gestionar los objetos que hay en Docker como imágenes, contenedores, redes y volúmenes. Se representa mediante el comando dockerd.
@@ -97,7 +97,7 @@ Si optamos por el arranque dual, debemos reservar espacio en el disco duro para 
 ###requisitos previos
 Debe ejecutar Windows 10 versión 2004 y superior (compilación 19041 y superior) o Windows 11.
 
- ####Nota
+ #### Nota
 
 Para verificar su versión de Windows y el número de compilación, seleccione la tecla del logotipo de Windows + R , escriba winver , seleccione Aceptar . Puede actualizar a la última versión de Windows seleccionando Inicio > Configuración > Actualización de Windows > Buscar actualizaciones .
 
