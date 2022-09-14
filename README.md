@@ -4,6 +4,14 @@
 ## ARQUITECTURA
 
 #### Ejecución de aplicaciones de GUI de Linux en el Subsistema de Windows para Linux.
+![img1](https://user-images.githubusercontent.com/101934945/190174225-798fafe1-02b5-4bc5-8d97-7d9ab26415f5.PNG)
+![img2](https://user-images.githubusercontent.com/101934945/190174232-4ba5f04e-8f2b-4239-b1e3-90824d6a8635.PNG)
+![img3](https://user-images.githubusercontent.com/101934945/190174234-1ab377a3-34f4-4c28-9a51-625a393b7016.PNG)
+![img4](https://user-images.githubusercontent.com/101934945/190174237-25a6c2b8-5c0e-4f52-8bb2-f085bac8dc50.PNG)
+![img5](https://user-images.githubusercontent.com/101934945/190174238-37771538-2dad-496a-95dc-491371eaa490.PNG)
+![img6](https://user-images.githubusercontent.com/101934945/190174239-83a0d0b1-1c19-4dca-b565-0b22617a7720.PNG)
+![img7](https://user-images.githubusercontent.com/101934945/190174241-46357aaf-0f6b-4c53-8b1d-b34aaa04c9b5.PNG)
+![menu](https://user-images.githubusercontent.com/101934945/190174242-867d52af-045e-46d1-b766-d81c4efff2db.PNG)
 
 
 En este artículo
